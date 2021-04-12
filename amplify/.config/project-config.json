@@ -1,0 +1,17 @@
+{
+  "projectName": "amped",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "vue",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist",
+      "BuildCommand": "yarn run generate",
+      "StartCommand": "npm run serve"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

@@ -1,28 +1,16 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
+      <!-- <Logo /> -->
+      <!-- <h1 class="title">
         Amped
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      </h1> -->
+       <amplify-authenticator>
+        <div>
+          My App
+          <amplify-sign-out></amplify-sign-out>
+        </div>
+      </amplify-authenticator>
     </div>
   </div>
 </template>
